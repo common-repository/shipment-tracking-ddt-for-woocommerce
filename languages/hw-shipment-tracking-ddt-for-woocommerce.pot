@@ -1,0 +1,359 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Shipment Tracking DDT for WooCommerce\n"
+"POT-Creation-Date: 2024-05-08 17:39+0200\n"
+"PO-Revision-Date: 2024-05-07 17:20+0200\n"
+"Last-Translator: Gianluca Marzaro <info@hardweb.it>\n"
+"Language-Team: Gianluca Marzaro <info@hardweb.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: hw-shipment-tracking-ddt-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:72
+msgid "Tracking ordine"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:110
+#: includes/wc-admin-options.php:113
+msgid "d/m/Y H:i:s"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:118
+msgid "Tracking inviato il"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:122
+msgid "Tracking non ancora inviato"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:129
+msgid "DDT inviato il"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:133
+msgid "DDT non ancora inviato"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:139
+msgid "Corriere:"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:141
+msgid "Seleziona"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:151
+msgid "Codice Tracking:"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:155
+msgid "Link Tracking:"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:158
+msgid ""
+"La mail con le informazioni di tracking viene inviata se almeno uno dei due "
+"campi (codice o link) è stato compilato."
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:162
+msgid "Carica DDT:"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:170
+msgid "DDT PDF Link:"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:347
+msgid "Errore: Solo file PDF accettati!"
+msgstr ""
+
+#. translators: %s is filesize
+#: hw-shipment-tracking-ddt-for-woocommerce.php:353
+#, php-format
+msgid "Errore: Dimensione file %s!<br>Massimo consentito 5 MB."
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:353
+msgid "Riprova"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:361
+msgid "Errore: Caricamento file interrotto."
+msgstr ""
+
+#. translators: %s is upload_path
+#: hw-shipment-tracking-ddt-for-woocommerce.php:375
+#, php-format
+msgid "Errore: Impossibile creare la cartella %s"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:400
+msgid "File caricato con successo!"
+msgstr ""
+
+#. translators: %s is upload_path
+#: hw-shipment-tracking-ddt-for-woocommerce.php:406
+#, php-format
+msgid "Errore: Upload fallito. Impossibile caricare il file nella cartella %s"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:420
+msgid "Errore: ordine sconosciuto."
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:443
+msgid "File Eliminato!"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:481
+msgid "Invia DDT"
+msgstr ""
+
+#: hw-shipment-tracking-ddt-for-woocommerce.php:482
+msgid "Invia Email Tracking"
+msgstr ""
+
+#. translators: %s is the Plugin name
+#: hw-shipment-tracking-ddt-for-woocommerce.php:530
+#, php-format
+msgid ""
+"Il plugin <strong>%s</strong> richiede che la funzione <a href=\"https://"
+"woocommerce.com/document/high-performance-order-storage/\">HPOS</a> di "
+"WooCommerce sia attiva per poter funzionare correttamente."
+msgstr ""
+
+#: includes/class-wc-email-ddt.php:23
+msgid "Invio DDT al cliente"
+msgstr ""
+
+#: includes/class-wc-email-ddt.php:24 includes/class-wc-email-shipped.php:24
+msgid ""
+"Questa email viene inviata quando sono disponibili le informazioni di "
+"tracciamento per l'ordine."
+msgstr ""
+
+#: includes/class-wc-email-ddt.php:26
+msgid "Il DDT per l'ordine #{order_id} si trova in allegato"
+msgstr ""
+
+#: includes/class-wc-email-ddt.php:27
+msgid "Il DDT per l'ordine #{order_id}"
+msgstr ""
+
+#: includes/class-wc-email-ddt.php:148 includes/class-wc-email-shipped.php:215
+msgid "Abilita/Disabilita"
+msgstr ""
+
+#: includes/class-wc-email-ddt.php:150 includes/class-wc-email-shipped.php:217
+msgid "Abilita questa email"
+msgstr ""
+
+#: includes/class-wc-email-ddt.php:154 includes/class-wc-email-shipped.php:221
+msgid "Oggetto"
+msgstr ""
+
+#: includes/class-wc-email-ddt.php:156 includes/class-wc-email-shipped.php:223
+msgid "L'oggetto dell'email che il destinatario vedrà."
+msgstr ""
+
+#: includes/class-wc-email-ddt.php:157
+msgid "Il DDT per l'ordine {order_id}"
+msgstr ""
+
+#: includes/class-wc-email-ddt.php:161 includes/class-wc-email-shipped.php:228
+msgid "Intestazione"
+msgstr ""
+
+#: includes/class-wc-email-ddt.php:163 includes/class-wc-email-shipped.php:230
+msgid "L'intestazione dell'email che il destinatario vedrà."
+msgstr ""
+
+#: includes/class-wc-email-ddt.php:164
+msgid "Il DDT per l'ordine {order_id} si trova in allegato"
+msgstr ""
+
+#: includes/class-wc-email-ddt.php:168 includes/class-wc-email-shipped.php:235
+msgid "Tipo email"
+msgstr ""
+
+#: includes/class-wc-email-ddt.php:170 includes/class-wc-email-shipped.php:237
+msgid "Scegli se inviare questa email come HTML o testo semplice."
+msgstr ""
+
+#: includes/class-wc-email-shipped.php:23
+msgid "Ordine Spedito (Tracking)"
+msgstr ""
+
+#: includes/class-wc-email-shipped.php:26
+#: includes/class-wc-email-shipped.php:27
+#: includes/class-wc-email-shipped.php:224
+#: includes/class-wc-email-shipped.php:231
+msgid "Informazioni di Tracciamento per l'ordine #{order_id}"
+msgstr ""
+
+#: includes/wc-admin-options.php:8 includes/wc-admin-options.php:88
+msgid "Tracking"
+msgstr ""
+
+#: includes/wc-admin-options.php:23
+msgid "Stato Spedito"
+msgstr ""
+
+#: includes/wc-admin-options.php:25
+msgid ""
+"Quando l'ordine passa sullo stato Spedito puoi decidere se inviare una email "
+"unica (compresa di DDT allegato), oppure se inviarne due separatamente (una "
+"con le informazioni di tracking e un'altra con il DDT)."
+msgstr ""
+
+#: includes/wc-admin-options.php:29
+msgid "Tipo di Email"
+msgstr ""
+
+#: includes/wc-admin-options.php:31
+msgid ""
+"Scegli il tipo di email da inviare quando l'ordine passa allo stato Spedito."
+msgstr ""
+
+#: includes/wc-admin-options.php:34
+msgid "Invia Email unica"
+msgstr ""
+
+#: includes/wc-admin-options.php:35
+msgid "Invia Email separate"
+msgstr ""
+
+#: includes/wc-admin-options.php:40
+msgid "Includere informazioni Tracking con DDT"
+msgstr ""
+
+#: includes/wc-admin-options.php:42
+msgid ""
+"Nella mail che contiene il DDT vuoi mostrare anche le informazioni sul "
+"Tracking?"
+msgstr ""
+
+#: includes/wc-admin-options.php:45
+msgid "No, allega solo il DDT"
+msgstr ""
+
+#: includes/wc-admin-options.php:46
+msgid "Si, includi anche le informazioni"
+msgstr ""
+
+#: includes/wc-admin-options.php:132
+msgid "DDT"
+msgstr ""
+
+#: includes/wc-admin-options.php:136
+msgid "Tracking inviato"
+msgstr ""
+
+#: includes/wc-admin-options.php:142
+msgid "DDT inviato"
+msgstr ""
+
+#: includes/wc-admin-options.php:148
+msgid "Nessun dato presente"
+msgstr ""
+
+#: includes/wc-shipped-status-functions.php:9
+#: includes/wc-shipped-status-functions.php:26
+msgctxt "Order status"
+msgid "Spedito"
+msgstr ""
+
+#. translators: Order status Shipped
+#.
+#: includes/wc-shipped-status-functions.php:17
+#, php-format
+msgid "Spedito <span class=\"count\">(%s)</span>"
+msgid_plural "Spediti <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s Customer name
+#: templates/emails/customer-ddt.php:23
+#: templates/emails/customer-tracking.php:24
+#, php-format
+msgid "Ciao %s,"
+msgstr ""
+
+#. translators: %s Order ID
+#: templates/emails/customer-ddt.php:26
+#, php-format
+msgid "Il DDT del tuo ordine #%s è ora disponibile."
+msgstr ""
+
+#: templates/emails/customer-ddt.php:27
+msgid "In allegato troverai il tuo DDT in formato PDF"
+msgstr ""
+
+#. translators: %s: Courier name
+#. translators: %s: Order tracking number
+#: templates/emails/customer-ddt.php:42
+#: templates/emails/customer-tracking.php:40
+#, php-format
+msgid "Corriere: %s"
+msgstr ""
+
+#. translators: %s: Order tracking number
+#: templates/emails/customer-ddt.php:49
+#: templates/emails/customer-tracking.php:47
+#, php-format
+msgid "Codice Tracciamento: %s"
+msgstr ""
+
+#. translators: %1$s and %2$s are the same: Order tracking link
+#: templates/emails/customer-ddt.php:56
+#: templates/emails/customer-tracking.php:54
+#, php-format
+msgid "Link Tracciamento: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#. translators: %1$s and %2$s are the same: DDT file link
+#: templates/emails/customer-ddt.php:66
+#, php-format
+msgid "File DDT: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#. translators: %s Order ID
+#: templates/emails/customer-tracking.php:28
+#, php-format
+msgid ""
+"Le informazioni di tracciamento per il tuo ordine #%s sono ora disponibili."
+msgstr ""
+
+#: templates/emails/customer-tracking.php:30
+msgid "Di seguito trovi le informazioni di tracciamento:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Shipment Tracking DDT for WooCommerce"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Aggiungi il codice di tracciamento e allega i DDT ai tuoi ordini WooCommerce!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Hardweb.it"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://hardweb.it/"
+msgstr ""
